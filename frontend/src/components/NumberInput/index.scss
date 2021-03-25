@@ -1,0 +1,14 @@
+.number-input {
+  width: 100%;
+  height: 3.376em;
+  border-radius: 3.75em;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: "Roboto Thin", serif;
+}
+
+.number-input::placeholder {
+  color: #B2C0DB;
+}

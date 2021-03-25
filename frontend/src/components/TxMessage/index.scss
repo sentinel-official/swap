@@ -1,0 +1,20 @@
+.tx-message {
+  font-family: "Open Sans", serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 5vh;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+
+  &-success {
+    color: #00DB72;
+  }
+
+  &-failed {
+    color: red;
+  }
+
+  &-pending {
+    color: orange;
+  }
+}

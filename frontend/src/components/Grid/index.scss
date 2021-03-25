@@ -1,0 +1,47 @@
+.grid-swap {
+  width: 27.9375em;
+  padding: 2.75em 1.46875em;
+  background: #ffffff;
+  border-radius: 1.875em;
+  box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+}
+
+.grid-metamask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e4eff4;
+  border-radius: 1.25em;
+  box-sizing: border-box;
+  margin: 5%;
+  width: 45%;
+  height: 10em;
+  padding: 5% 0;
+  box-shadow: 0 0 0.5em 0.2em #eee;
+  cursor: pointer;
+}
+
+.grid-ledger-wallet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e4eff4;
+  box-sizing: border-box;
+  border-radius: 1.25em;
+  margin: 5%;
+  width: 90%;
+  padding: 15% 0;
+  box-shadow: 0 0 0.5em 0.2em #eee;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .grid-swap {
+    width: 100%;
+    margin: 0 1em;
+    padding: 2.75em 1.46875em;
+    background: #ffffff;
+    border-radius: 1.875em;
+    box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+  }
+}
