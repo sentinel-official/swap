@@ -1,0 +1,4 @@
+export const FAQ_MODAL_SHOW = 'FAQ_MODAL_SHOW';
+export const FAQ_MODAL_HIDE = 'FAQ_MODAL_HIDE';
+
+export const FAQ_ACTIVE_INDEX_SET = 'FAQ_ACTIVE_INDEX_SET';

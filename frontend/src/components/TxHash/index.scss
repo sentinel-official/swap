@@ -1,0 +1,42 @@
+.tx-hash {
+  font-family: "Open Sans", serif;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+
+  &-title {
+    padding: 1vh 1vw;
+    width: 10%;
+    text-align: left;
+  }
+
+  &-primary {
+    word-break: break-all;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E4EFF4;
+
+    &-hash {
+      box-sizing: border-box;
+      text-align: left;
+      color: #2BA9D9;
+    }
+  }
+
+  &-secondary {
+    word-break: break-all;
+    box-sizing: border-box;
+
+    &-hash {
+      box-sizing: border-box;
+      text-align: left;
+      width: 80%;
+      color: #2BA9D9;
+    }
+  }
+
+  &-link {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1vh 1vw;
+  }
+}

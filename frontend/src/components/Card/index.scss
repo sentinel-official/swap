@@ -1,0 +1,36 @@
+.card-swap {
+  width: 25em;
+  height: 25em;
+  padding: 2.75em 1.46875em;
+  background: #ffffff;
+  border-radius: 1.875em;
+  box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+}
+
+.card-metamask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E4EFF4;
+  border-radius: 1.25em;
+  box-sizing: border-box;
+  margin: 5%;
+  width: 40%;
+  padding: 5% 0;
+  box-shadow: 0 0 0.5em 0.2em #eee;
+  cursor: pointer;
+}
+
+.card-ledger-wallet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E4EFF4;
+  box-sizing: border-box;
+  border-radius: 1.25em;
+  margin: 5%;
+  width: 40%;
+  padding: 5% 0;
+  box-shadow: 0 0 0.5em 0.2em #eee;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+.button-connect-to-wallet {
+  width: 100%;
+  height: 3.376em;
+  border-radius: 3.75em;
+  outline: none;
+  border: 1px solid #00b6fa;
+  color: #00b6fa;
+  cursor: pointer;
+  background: rgba(23, 135, 224, 0.08);
+}
+
+.button-swap-to-address-paste {
+  background: transparent;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: #55678b;
+  cursor: pointer;
+  height: 2.776em;
+  width: 6.078em;
+}
+
+.button-swap-amount-max {
+  background: transparent;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: #55678b;
+  cursor: pointer;
+  height: 2.776em;
+  width: 6.078em;
+}
+
+.button-swap-submit {
+  outline: none;
+  background: #00b6fa;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 2.925em;
+  color: white;
+  border: 1px solid #00b6fa;
+  width: 100%;
+  height: 3.9015em;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button-dark-mode {
+  width: 5em;
+  text-align: left;
+  height: 2.47597em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 2.925em;
+  font-weight: 500;
+  font-size: 0.875em;
+  padding: 0;
+  background: transparent;
+}
+
+.button-faq {
+  width: 5em;
+  height: 2.47597em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 2.925em;
+  font-weight: 500;
+  font-size: 0.875em;
+  color: #55678b;
+  padding: 0;
+  background-color: #e3ecf3;
+}
+
+.disabled {
+  cursor: none;
+  pointer-events: none;
+}

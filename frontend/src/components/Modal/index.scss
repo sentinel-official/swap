@@ -1,0 +1,122 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wallets {
+    background-color: white;
+    outline: none;
+    border-radius: 2em;
+    width: 25em;
+    height: 18em;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+
+    .btn-close {
+      text-align: right;
+
+      button {
+        border: none;
+        outline: none;
+        background: transparent;
+        cursor: pointer;
+      }
+    }
+
+    .modal-title {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #55678b;
+      text-transform: uppercase;
+    }
+
+    .children {
+      text-align: center;
+      margin-top: 1vh;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  .swap-status {
+    font-family: "Open Sans", serif;
+    letter-spacing: 1px;
+    background-color: white;
+    outline: none;
+    border-radius: 2em;
+    padding: 1em;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 2em;
+    width: 52.5em;
+
+    .btn-close {
+      text-align: right;
+
+      button {
+        border: none;
+        outline: none;
+        background: transparent;
+        cursor: pointer;
+      }
+    }
+
+    .modal-title {
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #55678b;
+      text-transform: uppercase;
+    }
+  }
+
+  .faq-modal {
+    font-family: "Open Sans", serif;
+    background-color: white;
+    outline: none;
+    border-radius: 2em;
+    padding: 0 1em 1em 1em;
+    box-sizing: border-box;
+    line-height: 2em;
+    max-height: 75%;
+    width: 50%;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      height: 0;
+      width: 0;
+      background: transparent;
+    }
+
+    .btn-close {
+      text-align: right;
+
+      button {
+        border: none;
+        outline: none;
+        background: transparent;
+        cursor: pointer;
+      }
+    }
+
+    .title-bar {
+      padding: 1em;
+      position: sticky;
+      top: 0;
+      background-color: white;
+      margin: 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .modal-title {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 700;
+      color: #55678b;
+      text-transform: uppercase;
+    }
+
+  }
+}
